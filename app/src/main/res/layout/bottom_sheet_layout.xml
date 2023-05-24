@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Bottom Sheet Dialog"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"></TextView>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_1"></androidx.appcompat.widget.AppCompatButton>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/Button2"
+        android:text="@string/button_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.appcompat.widget.LinearLayoutCompat>
